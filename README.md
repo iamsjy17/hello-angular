@@ -1,2 +1,4 @@
 # hello-angular
-angular study
+
+- GDG webtech Angular codelab
+- angular study
