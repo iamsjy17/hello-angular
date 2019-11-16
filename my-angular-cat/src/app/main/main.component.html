@@ -1,0 +1,9 @@
+<!-- src/app/main/main.component.html -->
+<div class="grid-container">
+  <figure *ngFor="let image of images">
+    <a [routerLink]="['/cats', image.id]">
+      <img class="grid-image" src="{{ image.url }}" />
+    </a>
+  </figure>
+</div>
+<intersection-observer (intersect)="onIntersect()"></intersection-observer>

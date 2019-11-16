@@ -1,0 +1,5 @@
+<figure>
+  <figcaption>ID = {{ image && image.id }}</figcaption>
+  <img src="{{ (image && image.url) || '' }}" alt="Test" />
+  <!-- <img *ngIf="image !== undefined" src="{image.url}" alt="Test" /> -->
+</figure>

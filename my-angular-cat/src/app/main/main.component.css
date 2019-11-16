@@ -1,0 +1,14 @@
+/* src/app/main/main.component.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 240px));
+  grid-row: auto auto;
+  grid-gap: 12px;
+  justify-content: center;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
